@@ -42,10 +42,6 @@ public class Message {
         this.messageNumber = ++messageCounter;
     }
 
-    public static void main(String[] args) {
-        loadStoredMessagesFromJSON();
-        startMessagingApp();
-    }
 
     private static void loadStoredMessagesFromJSON() {
         try {
