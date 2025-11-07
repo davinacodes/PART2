@@ -27,9 +27,9 @@ public class MessageTest {
 
     @Test
     public void testGoodPhoneNumber() {
-        assertTrue(Message.checkRecipientCell("+27718693002"));  // +27 prefix, length >= 11
-        assertTrue(Message.checkRecipientCell("27718693002"));   // 27 prefix, length == 11
-        assertTrue(Message.checkRecipientCell("0857597588"));    // 10 digits (not 11!)
+        assertTrue(Message.checkRecipientCell("+27718693002")); 
+        assertTrue(Message.checkRecipientCell("27718693002"));   
+        assertTrue(Message.checkRecipientCell("0857597588"));    
     }
 
     @Test
